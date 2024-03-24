@@ -10,17 +10,17 @@ Execute o comando npm install (ou npm i para a versão curta) para instalar as d
 
 ## Instalação
 
-1. Instale o Cypress na sua máquina:
-
-``npm install cypress --save-dev``
-
-2. Clone este repositório em sua máquina local:
+1. Clone este repositório em sua máquina local:
 
 `git clone <URL_DO_REPOSITÓRIO>`
 
-3. Abra o projeto do cypress no visual studio code
+2. Abra o projeto do cypress no visual studio code
 
-4. Abra o terminal do Visual Studio Code e rode o cypress em modo headless por esse comando:
+3. Abra o terminal do Visual Studio Code e instale o Cypress na sua máquina, para que seja instalado a pasta "node_modules":
+
+``npm install cypress --save-dev``
+
+4. Após isso, ainda no terminal do Visual Studio Code, rode os testes do cypress em modo headless por esse comando:
 
 `npx cypress run --headless`
 
